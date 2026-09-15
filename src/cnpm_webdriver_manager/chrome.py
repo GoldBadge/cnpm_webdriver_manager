@@ -13,7 +13,7 @@ class ChromeDriverManager(chrome.ChromeDriverManager):
         self,
         driver_version: Optional[str] = None,
         name: str = 'chromedriver',
-        url: str = 'https://registry.npmmirror.com/binary.html?path=chromedriver/',
+        url: str = 'https://registry.npmmirror.com/-/binary/chromedriver/',
         latest_release_url: str = 'https://registry.npmmirror.com/-/binary/chromedriver/LATEST_RELEASE',
         chrome_type: str = ChromeType.GOOGLE,
         download_manager: Optional[DownloadManager] = None,
